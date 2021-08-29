@@ -17,7 +17,7 @@ window.addEventListener("load", function() {
        let diameter= planet.diameter; 
        let star= planet.star; 
        let distance=planet.distance; 
-       let moons= planet.distance; 
+       let moons= planet.moons; 
        let imageUrl = planet.image; 
 
        addDestinationInfo(document, name, diameter, star, distance, moons, imageUrl);
